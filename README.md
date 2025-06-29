@@ -1,20 +1,34 @@
-# To_Do_List_Python
-Python CLI To-Do List App
-A simple command-line To-Do List application in Python.
-Manage your tasks by adding, viewing, marking as done, and deleting tasks. Tasks are saved in a JSON file for persistence.
+# Python CLI To-Do List App
 
-Features
-Add new tasks
-View all tasks with completion status
-Mark tasks as done
-Delete tasks
-Tasks saved to tasks.json
+A simple command-line To-Do List application written in Python.  
+Easily add, view, mark as done, and delete tasks. Tasks are stored persistently in a JSON file.
 
-How to Use
-Copy the entire code block below into a Python code cell in your notebook or your Python environment.
+---
 
-Run the code.
+## Features
 
-Follow the menu prompts to manage your tasks.
+- Add new tasks  
+- View all tasks with completion status  
+- Mark tasks as done  
+- Delete tasks  
+- Persistent storage in `tasks.json` file  
 
-Tasks will be saved automatically in tasks.json in the working directory.
+---
+
+## Requirements
+
+- Python 3.x  
+- (Optional) Google Colab or any Python environment  
+
+---
+
+## Getting Started
+
+### Running Locally
+
+1. Clone or download the repository.  
+2. Open a terminal and navigate to the project folder.  
+3. Run the app with:
+
+   ```bash
+   python todo.py
